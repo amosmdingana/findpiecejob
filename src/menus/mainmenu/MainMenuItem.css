@@ -1,0 +1,15 @@
+.mainmenu-item{
+    background: floralwhite;
+   color: darkcyan;
+ padding: 5px 5px 5px 5px;
+ border-radius: 5px;
+ width: fit-content;
+ min-width: 100px;
+ text-align: center;
+
+}
+
+.mainmenu-item:hover {
+    background: darkcyan;
+    color: floralwhite;
+}

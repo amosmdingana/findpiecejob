@@ -1,0 +1,20 @@
+.mainmenu .mainmenu-items{
+    display: flex;
+    flex-direction: row;
+    background: floralwhite;
+    justify-content: flex-end;
+    padding: 3px 3px 3px 3px;
+    font-size: 20px;
+}
+
+.mainmenu{
+    display: flex;
+    flex-direction: row;
+    background: floralwhite;
+    justify-content: flex-start;
+}
+
+.mainmenu .icon img{
+    width: 60px;
+    height: 57px;
+}

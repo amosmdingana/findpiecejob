@@ -1,0 +1,28 @@
+.catalog .search-group {
+    display: flex;
+    padding: 20px 20px 20px 10px;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.catalog .selectinput{
+    margin: 10px;
+}
+
+.catalog .selectinput select {
+    height: 43px;
+    font-size: 20px;
+}
+
+.catalog .textinput-search input {
+    height: 42px;
+    font-size: 20px;
+    color: #000;
+}
+
+.catalog .card:hover {
+    background-color: wheat;
+}

@@ -1,0 +1,15 @@
+
+.selectinput select{
+    width: 396px;
+    height: 29px;
+    background: floralwhite;
+    border: 1px solid wheat;
+    color: darkcyan;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.selectinput select:hover{
+    background-color: wheat;
+    border: 1px solid darkcyan;
+}
