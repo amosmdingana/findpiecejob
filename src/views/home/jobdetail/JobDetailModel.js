@@ -1,7 +1,7 @@
 import ComponentModel from "../../components/property/ComponentModel";
 import SelectInputModel from "../../components/selectinput/SelectInputModel";
 
-export default class CatalogModel extends ComponentModel{
+export default class JobDetailModel extends ComponentModel{
     constructor(props){
       super();
       this.catagories = [];
