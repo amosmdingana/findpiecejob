@@ -1,15 +1,9 @@
-import MainMenu from "../../menus/mainmenu/MainMenu";
-import MainMenuItem from "../../menus/mainmenu/MainMenuItem";
-import Page from "../../components/page/Page.js"
-import HGroup from "../../components/hgroup/HGroup";
+import BreadCrumb from "../../components/breadcrumb/BreadCrumb";
+import BreadCrumbItem from "../../components/breadcrumb/BreadCrumbItem";
+import Page from "../../components/page/Page";
 import PageContent from "../../components/page/PageContent";
-import Button from "../../components/button/Button";
-import TextInput from "../../components/textinput/TextInput";
-import Image from "../../components/image/Image";
-import SelectInput from "../../components/selectinput/SelectInput";
-import Card from "../../components/card/Card";
-import Group from "../../components/group/Group";
 import Component from "../../components/property/Component";
+import MainMenu from "../../menus/mainmenu/MainMenu";
 import JobDetailModel from "./JobDetailModel";
 export default class  JobDetail extends Component{
    render() {
@@ -20,6 +14,9 @@ export default class  JobDetail extends Component{
                  <Page>
                       <MainMenu/>
                       <PageContent>
+                        <BreadCrumb>
+                         <BreadCrumbItem  label="Detail"/>
+                        </BreadCrumb>
                       </PageContent>
                  </Page>
        </div>

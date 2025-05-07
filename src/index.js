@@ -5,11 +5,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Home from './views/home/Catalog';
+import JobDetail from './views/jobdetail/JobDetail';
 
 const routing = (  <Router>
   <div>
     <Routes>
        <Route exact path="/piecejob" element={<Home />} />
+       <Route exact path="/piecejob/detail" element={<JobDetail />} />
     </Routes>
     </div>
     </Router>

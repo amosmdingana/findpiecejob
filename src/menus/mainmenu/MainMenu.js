@@ -9,7 +9,7 @@ export default class MainMenu extends Component{
         return <div className="mainmenu">
               <Icon className="mainmenu-logo" name="logo.png" />
               <div className="mainmenu-items">
-              <MainMenuItem label="Catalog" link="piecejob" />
+              <MainMenuItem label="Catalog" link="/piecejob" />
               <MainMenuItem label="My Activity"/>
               </div>
         </div>
